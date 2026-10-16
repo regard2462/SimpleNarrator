@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aussprache-Regeln -->
+    <string name="sp_rules_title">Ausspracheregeln</string>
+    <string name="sp_rules_help">Eine Regel pro Zeile.\nwort=aussprache ersetzt ganze Wörter, Groß- und Kleinschreibung spielt keine Rolle.\n*regex=ersatz nutzt einen regulären Ausdruck, $1 setzt die erste Gruppe ein.\nEin leerer Ersatz oder [skip] entfernt die Fundstelle.\n[pause] fügt eine Pause von 500 ms ein, [pause:800] eine von 800 ms.\nZeilen mit # am Anfang werden übersprungen.\nIn einem regulären Ausdruck wird = als \\= geschrieben.</string>
+    <string name="sp_rules_import">Regeln importieren</string>
+    <string name="sp_rules_import_hint">Liest Ersetzungen aus Librera Reader und Regeldateien aus @Voice Aloud Reader (.txt). Befehle ohne Entsprechung in dieser App werden als abgeschaltete Zeilen übernommen.</string>
+    <plurals name="sp_rules_imported">
+        <item quantity="one">%d Regel importiert</item>
+        <item quantity="other">%d Regeln importiert</item>
+    </plurals>
+    <string name="sp_rules_import_empty">In dieser Datei wurden keine Regeln gefunden.</string>
+    <string name="sp_rule_error_missing_separator">Zeile %1$d: Das = zwischen Muster und Ersatz fehlt.</string>
+    <string name="sp_rule_error_empty_pattern">Zeile %1$d: Das Muster ist leer.</string>
+    <string name="sp_rule_error_invalid_regex">Zeile %1$d: Ungültiger regulärer Ausdruck (%2$s).</string>
+    <string name="sp_rule_error_invalid_replacement">Zeile %1$d: Ungültiger Ersatz (%2$s).</string>
+
+    <!-- Pausen -->
+
+    <!-- Dialogstimme -->
+
+    <!-- System-Sprachausgabe -->
+    <string name="sp_system_tts_title">Stimme für andere Apps</string>
+    <string name="sp_system_tts_hint">Apps wie Readest, Librera oder TalkBack können mit den installierten Stimmen vorlesen. Dazu in den Systemeinstellungen unter Sprachausgabe Simple Narrator als bevorzugtes Modul wählen.</string>
+    <string name="sp_system_tts_open">Einstellungen der Sprachausgabe öffnen</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hörproben für GET_SAMPLE_TEXT: je Stimmensprache, unabhängig von der App-Sprache -->
+    <string name="sp_sample_de" translatable="false">Dies ist eine Hörprobe von Simple Narrator. So klingt die ausgewählte Stimme.</string>
+    <string name="sp_sample_en" translatable="false">This is a sample from Simple Narrator. This is how the selected voice sounds.</string>
+
+    <!-- Aussprache-Regeln -->
+    <string name="sp_rules_title">Pronunciation rules</string>
+    <string name="sp_rules_help">One rule per line.\nword=pronunciation replaces whole words, upper and lower case do not matter.\n*regex=replacement uses a regular expression, $1 inserts the first group.\nAn empty replacement or [skip] removes the match.\n[pause] inserts a pause of 500 ms, [pause:800] one of 800 ms.\nLines starting with # are ignored.\nInside a regular expression, write = as \\=.</string>
+    <string name="sp_rules_import">Import rules</string>
+    <string name="sp_rules_import_hint">Reads replacements from Librera Reader and rule files from @Voice Aloud Reader (.txt). Commands without a counterpart here are added as disabled lines.</string>
+    <plurals name="sp_rules_imported">
+        <item quantity="one">%d rule imported</item>
+        <item quantity="other">%d rules imported</item>
+    </plurals>
+    <string name="sp_rules_import_empty">No rules found in this file.</string>
+    <string name="sp_rule_error_missing_separator">Line %1$d: the = between pattern and replacement is missing.</string>
+    <string name="sp_rule_error_empty_pattern">Line %1$d: the pattern is empty.</string>
+    <string name="sp_rule_error_invalid_regex">Line %1$d: invalid regular expression (%2$s).</string>
+    <string name="sp_rule_error_invalid_replacement">Line %1$d: invalid replacement (%2$s).</string>
+
+    <!-- Pausen -->
+
+    <!-- Dialogstimme -->
+
+    <!-- System-Sprachausgabe -->
+    <string name="sp_system_tts_title">Voice for other apps</string>
+    <string name="sp_system_tts_hint">Apps such as Readest, Librera or TalkBack can read with the installed voices. To do so, select Simple Narrator as the preferred engine in the system settings under text-to-speech output.</string>
+    <string name="sp_system_tts_open">Open text-to-speech settings</string>
+</resources>

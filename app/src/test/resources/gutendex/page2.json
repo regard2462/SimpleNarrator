@@ -1,0 +1,20 @@
+{
+  "count": 4,
+  "next": null,
+  "previous": "{{BASE}}/books/?languages=de%2Cen&mime_type=application%2Fepub&search=goethe",
+  "results": [
+    {
+      "id": 2230,
+      "title": "Faust: Der Tragödie zweiter Teil",
+      "authors": [{"name": "Goethe, Johann Wolfgang von", "birth_year": 1749, "death_year": 1832}],
+      "languages": ["de"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/epub+zip": "{{BASE}}/ebooks/2230.epub3.images",
+        "image/jpeg": "{{BASE}}/cache/epub/2230/pg2230.cover.medium.jpg"
+      },
+      "download_count": 980
+    }
+  ]
+}

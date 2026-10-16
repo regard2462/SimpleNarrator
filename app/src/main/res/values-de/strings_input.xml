@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hinzufügen-Menü der Bibliothek -->
+    <string name="in_add_file">Datei (EPUB, PDF, TXT)</string>
+    <string name="in_add_paste">Text einfügen</string>
+    <string name="in_add_web">Webartikel</string>
+    <string name="in_add_gutenberg">Project Gutenberg</string>
+
+    <!-- Text einfügen -->
+    <string name="in_paste_title">Text einfügen</string>
+    <string name="in_title_optional">Titel (optional)</string>
+    <string name="in_title_auto">Leer: Die erste Zeile wird verwendet</string>
+    <string name="in_text_label">Text</string>
+    <string name="in_paste_from_clipboard">Aus Zwischenablage einfügen</string>
+    <string name="in_clear">Leeren</string>
+    <plurals name="in_char_count">
+        <item quantity="one">%1$s Zeichen</item>
+        <item quantity="other">%1$s Zeichen</item>
+    </plurals>
+    <string name="in_text_preview_only">Langer Text. Die Vorschau zeigt nur den Anfang.</string>
+    <string name="in_add">Hinzufügen</string>
+
+    <!-- Webartikel -->
+    <string name="in_web_title">Webartikel</string>
+    <string name="in_url_label">Webadresse</string>
+    <string name="in_url_hint">Die App lädt die Seite einmal und übernimmt nur den Artikeltext. Navigation, Werbung und Kommentare werden entfernt.</string>
+    <string name="in_url_invalid">Keine gültige Webadresse.</string>
+    <string name="in_load">Laden</string>
+    <string name="in_loading_article">Artikel wird geladen …</string>
+
+    <!-- Project Gutenberg -->
+    <string name="in_gb_title">Project Gutenberg</string>
+    <string name="in_gb_search_hint">Titel oder Autor</string>
+    <string name="in_gb_search">Suchen</string>
+    <string name="in_gb_clear_search">Suche leeren</string>
+    <string name="in_gb_lang_de">Deutsch</string>
+    <string name="in_gb_lang_en">English</string>
+    <string name="in_gb_lang_all">Alle</string>
+    <string name="in_gb_popular">Am häufigsten geladen</string>
+    <plurals name="in_gb_results">
+        <item quantity="one">%1$s Treffer</item>
+        <item quantity="other">%1$s Treffer</item>
+    </plurals>
+    <plurals name="in_gb_downloads">
+        <item quantity="one">%1$s Download</item>
+        <item quantity="other">%1$s Downloads</item>
+    </plurals>
+    <string name="in_gb_download">Herunterladen und hinzufügen</string>
+    <string name="in_gb_added">Zur Bibliothek hinzugefügt</string>
+    <string name="in_gb_no_epub">Kein EPUB verfügbar</string>
+    <string name="in_gb_load_more">Mehr laden</string>
+    <string name="in_gb_empty">Keine Bücher gefunden.</string>
+    <string name="in_gb_empty_hint">Eine andere Schreibweise oder ein anderer Sprachfilter hilft oft weiter.</string>
+    <string name="in_gb_results_catalog">Treffer aus dem Katalog von gutenberg.org</string>
+    <string name="in_gb_source">Gemeinfreie Bücher von gutenberg.org. Die Suche läuft über gutendex.com. Antwortet die Seite nicht, sucht die App im Katalog von gutenberg.org.</string>
+    <string name="in_retry">Erneut versuchen</string>
+
+    <!-- Audiobookshelf -->
+    <string name="in_abs_title">Audiobookshelf</string>
+    <string name="in_abs_hint">Exportierte Hörbücher auf den eigenen Audiobookshelf-Server hochladen. Den API-Schlüssel erzeugt die Weboberfläche unter Einstellungen > API-Schlüssel (ältere Versionen: Einstellungen > Benutzer).</string>
+    <string name="in_abs_url">Serveradresse</string>
+    <string name="in_abs_url_placeholder">https://abs.example.com</string>
+    <string name="in_abs_token">API-Schlüssel</string>
+    <string name="in_abs_show_token">Schlüssel anzeigen</string>
+    <string name="in_abs_hide_token">Schlüssel verbergen</string>
+    <string name="in_abs_test">Verbindung testen</string>
+    <string name="in_abs_testing">Verbinde …</string>
+    <string name="in_abs_connected">Verbunden. Serverversion %1$s</string>
+    <string name="in_abs_library">Bibliothek</string>
+    <string name="in_abs_folder">Ordner</string>
+    <string name="in_abs_choose">Auswählen</string>
+    <string name="in_abs_no_libraries">Der Server hat keine Hörbuch-Bibliothek.</string>
+    <string name="in_abs_upload_title">Zu Audiobookshelf hochladen</string>
+    <string name="in_abs_not_configured">Bitte zuerst in den Einstellungen Server, Bibliothek und Ordner festlegen.</string>
+    <plurals name="in_abs_files">
+        <item quantity="one">%1$d Datei, %2$s</item>
+        <item quantity="other">%1$d Dateien, %2$s</item>
+    </plurals>
+    <string name="in_abs_target">Ziel: %1$s, Ordner %2$s</string>
+    <string name="in_abs_book_title">Titel</string>
+    <string name="in_abs_author">Autor</string>
+    <string name="in_abs_upload">Hochladen</string>
+    <string name="in_abs_uploading">Wird hochgeladen … %1$d %%</string>
+    <string name="in_abs_done">Hochladen abgeschlossen. Das Buch erscheint in Audiobookshelf nach dem nächsten Scan der Bibliothek.</string>
+    <string name="in_abs_no_files">Keine Dateien zum Hochladen.</string>
+    <string name="in_close">Schließen</string>
+
+    <!-- Fehler -->
+    <string name="in_err_network">Keine Verbindung zum Server (%1$s).</string>
+    <string name="in_err_http">Der Server meldet Fehler %1$d.</string>
+    <string name="in_err_not_html">Die Adresse führt zu keiner Webseite (%1$s).</string>
+    <string name="in_err_too_large">Die Seite ist zu groß.</string>
+    <string name="in_err_no_text">Auf dieser Seite wurde kein Artikeltext gefunden.</string>
+    <string name="in_err_bad_response">Der Server hat eine unerwartete Antwort geschickt.</string>
+    <string name="in_err_not_epub">Die heruntergeladene Datei ist kein EPUB.</string>
+    <string name="in_err_unauthorized">Der Server hat den API-Schlüssel abgelehnt (401).</string>
+    <string name="in_err_forbidden">Zugriff verweigert (403). Der Benutzer braucht das Recht zum Hochladen.</string>
+    <string name="in_err_not_found">Nicht gefunden (404). Bitte Serveradresse, Bibliothek und Ordner prüfen.</string>
+    <string name="in_err_cleartext">Android sperrt für diese App unverschlüsselte http-Verbindungen. Bitte eine https-Adresse verwenden.</string>
+    <string name="in_err_other">Fehler: %1$s</string>
+</resources>

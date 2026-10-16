@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+<id>http://www.gutenberg.org/ebooks/search.opds/?query=kafka</id>
+<title>Books: kafka</title>
+<opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+<opensearch:startIndex>1</opensearch:startIndex>
+<link rel="next" title="Next Page" type="application/atom+xml;profile=opds-catalog" href="/ebooks/search.opds/?query=kafka&amp;start_index=26"/>
+<entry>
+<id>https://www.gutenberg.org/ebooks/authors/search.opds/?query=kafka</id>
+<title>Authors</title>
+<content type="text">2 author names match your search.</content>
+</entry>
+<entry>
+<id>https://www.gutenberg.org/ebooks/22367.opds</id>
+<title>Die Verwandlung (German)</title>
+<content type="text">Franz Kafka</content>
+<link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="/ebooks/22367.opds"/>
+</entry>
+<entry>
+<id>https://www.gutenberg.org/ebooks/7849.opds</id>
+<title>The Trial</title>
+<content type="text">Franz Kafka</content>
+<link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="/ebooks/7849.opds"/>
+</entry>
+<entry>
+<id>https://www.gutenberg.org/ebooks/77268.opds</id>
+<title>Képzelet-királyfiak :  Mese (Hungarian)</title>
+<content type="text">Margit Kaffka</content>
+<link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="/ebooks/77268.opds"/>
+</entry>
+</feed>
