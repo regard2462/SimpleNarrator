@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gesichert werden nur kleine Zustandsdateien: Fortschritt und Statistik der Hörbücher, Einstellungen. -->
+<full-backup-content>
+    <include domain="file" path="audiobooks/states.json" />
+    <include domain="file" path="audiobooks/stats.json" />
+    <include domain="file" path="datastore/settings.preferences_pb" />
+    <include domain="sharedpref" path="audiobooks.xml" />
+    <include domain="sharedpref" path="app_language.xml" />
+</full-backup-content>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Rahmen -->
+    <string name="tab_books">Bücher</string>
+    <string name="tab_audiobooks">Hörbücher</string>
+    <string name="channel_read_aloud">Vorlesen</string>
+
+    <!-- Allgemein -->
+    <string name="back">Zurück</string>
+    <string name="settings">Einstellungen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="more">Mehr</string>
+    <string name="book_not_found">Buch nicht gefunden</string>
+    <string name="error_unknown">unbekannt</string>
+    <string name="chapter_of">Kapitel %1$d von %2$d</string>
+    <plurals name="chapter_count">
+        <item quantity="one">%d Kapitel</item>
+        <item quantity="other">%d Kapitel</item>
+    </plurals>
+    <plurals name="sentence_count">
+        <item quantity="one">%d Satz</item>
+        <item quantity="other">%d Sätze</item>
+    </plurals>
+
+    <!-- Bibliothek -->
+    <string name="add_book">Buch hinzufügen</string>
+    <string name="importing">Wird importiert …</string>
+    <string name="import_failed">Import fehlgeschlagen: %1$s</string>
+    <string name="import_error_read">Die Datei konnte nicht gelesen werden.</string>
+    <string name="import_error_format">Das Format .%1$s wird nicht unterstützt (EPUB, PDF, TXT).</string>
+    <string name="import_error_empty">Kein vorlesbarer Text gefunden.</string>
+    <string name="no_voice_banner">Noch keine Stimme installiert. Tippen, um eine Stimme zu laden (z. B. Thorsten für Deutsch).</string>
+    <string name="library_empty">Deine Bibliothek ist leer.</string>
+    <string name="library_empty_hint">Füge ein EPUB, PDF oder eine Textdatei hinzu oder öffne eine Datei aus einer anderen App mit Simple Narrator.</string>
+    <string name="export_as_audiobook">Als Hörbuch exportieren</string>
+    <string name="remove_from_library">Aus Bibliothek entfernen</string>
+
+    <!-- Lesen und Vorlesen -->
+    <string name="chapters">Kapitel</string>
+    <string name="read_aloud">Vorlesen</string>
+    <string name="end_of_chapter">Ende des Kapitels</string>
+    <string name="generating_speech">Erzeuge Sprache …</string>
+    <string name="loading_voice">Lade Stimme %1$s …</string>
+    <string name="sleep_timer">Schlaf-Timer</string>
+    <plurals name="sleep_minutes">
+        <item quantity="one">%d Minute</item>
+        <item quantity="other">%d Minuten</item>
+    </plurals>
+    <string name="sleep_chapter_end">Am Kapitelende</string>
+    <string name="sleep_off">Timer aus</string>
+    <string name="stop_reading">Vorlesen beenden</string>
+    <string name="previous_chapter">Voriges Kapitel</string>
+    <string name="previous_sentence">Satz zurück</string>
+    <string name="pause">Pause</string>
+    <string name="play">Weiter</string>
+    <string name="next_sentence">Satz vor</string>
+    <string name="next_chapter">Nächstes Kapitel</string>
+    <string name="no_voice_installed">Kein Sprachmodell installiert. Bitte in den Einstellungen eine Stimme herunterladen.</string>
+
+    <!-- Texterkennung -->
+    <string name="ocr_channel">Texterkennung</string>
+    <string name="ocr_title">Texterkennung: %1$s</string>
+    <string name="ocr_preparing">Vorbereitung …</string>
+    <string name="ocr_downloading">Lade Sprachdaten (%1$s) …</string>
+    <string name="ocr_page">Seite %1$d von %2$d</string>
+    <string name="ocr_done">Fertig: %1$s</string>
+    <string name="ocr_failed">Texterkennung fehlgeschlagen: %1$s</string>
+    <string name="ocr_ask_title">Gescanntes PDF</string>
+    <string name="ocr_ask_text">%1$d von %2$d Seiten enthalten keinen Text, sie sind vermutlich gescannt. Die Texterkennung liest sie aus den Seitenbildern. Sie läuft im Hintergrund und braucht einige Sekunden pro Seite.</string>
+    <string name="ocr_ask_download">Vorher werden die Sprachdaten für Deutsch und Englisch geladen (etwa 6 MB).</string>
+    <string name="ocr_start">Text erkennen</string>
+    <string name="ocr_skip">Ohne importieren</string>
+    <string name="ocr_started">Die Texterkennung läuft im Hintergrund. Das Buch erscheint in der Bibliothek, sobald sie fertig ist.</string>
+    <string name="ocr_running">Texterkennung: %1$s</string>
+    <string name="ocr_settings_title">Texterkennung (OCR)</string>
+    <string name="ocr_settings_hint">Für gescannte PDFs ohne Textebene. Die Erkennung läuft mit Tesseract auf dem Gerät und braucht die Sprachdaten unten (aus tessdata_fast).</string>
+
+    <!-- Leseansicht -->
+    <string name="bookmarks">Lesezeichen</string>
+    <string name="bookmarks_empty">Noch keine Lesezeichen. Lange auf einen Satz drücken, um eines zu setzen, oder beim Zuhören die Lesezeichen-Taste nutzen.</string>
+    <string name="search_in_book">Im Buch suchen</string>
+    <string name="search_hint">Suchen</string>
+    <string name="search_none">Keine Treffer</string>
+    <plurals name="search_results">
+        <item quantity="one">%d Treffer</item>
+        <item quantity="other">%d Treffer</item>
+    </plurals>
+    <string name="reader_look">Darstellung</string>
+    <string name="read_from_here">Ab hier vorlesen</string>
+    <string name="bookmark_add">Lesezeichen setzen</string>
+    <string name="bookmark_remove">Lesezeichen entfernen</string>
+    <string name="note_add">Notiz hinzufügen</string>
+    <string name="note_edit">Notiz bearbeiten</string>
+    <string name="note_title">Notiz</string>
+    <string name="copy_sentence">Satz kopieren</string>
+    <string name="share_sentence">Satz teilen</string>
+    <string name="share_all">Alle teilen</string>
+    <string name="save">Speichern</string>
+    <string name="reader_font">Schrift</string>
+    <string name="font_serif">Serif</string>
+    <string name="font_sans">Sans</string>
+    <string name="font_mono">Mono</string>
+    <string name="reader_size">Schriftgröße: %1$d</string>
+    <string name="reader_line_height">Zeilenabstand: %1$s</string>
+    <string name="reader_margin">Ränder: %1$d</string>
+    <string name="reader_colors">Farben</string>
+    <string name="reader_theme_app">App</string>
+    <string name="reader_theme_light">Hell</string>
+    <string name="reader_theme_sepia">Sepia</string>
+    <string name="reader_theme_dark">Dunkel</string>
+    <string name="reader_theme_black">Schwarz</string>
+    <string name="word_highlight_title">Gesprochenes Wort hervorheben</string>
+    <string name="word_highlight_hint">Markiert das Wort, das gerade gelesen wird. Die Stelle wird aus der Länge der Wörter geschätzt.</string>
+    <string name="no_voice_title">Keine Stimme installiert</string>
+    <string name="open_settings">Zu den Einstellungen</string>
+    <string name="remember_sentence">Diesen Satz merken</string>
+    <string name="remembered">Satz gemerkt</string>
+
+    <!-- Export -->
+    <string name="export_title">Hörbuch erzeugen</string>
+    <string name="export_chapter_range">Kapitel %1$d bis %2$d</string>
+    <plurals name="export_estimate">
+        <item quantity="one">etwa %d Minute Audio</item>
+        <item quantity="other">etwa %d Minuten Audio</item>
+    </plurals>
+    <string name="export_format">Format</string>
+    <string name="export_format_mp3">MP3, läuft überall</string>
+    <string name="export_format_m4a">M4A (AAC), kleiner bei gleicher Qualität</string>
+    <string name="export_format_m4b">M4B-Hörbuch, eine Datei mit Kapitelmarken</string>
+    <string name="export_split">Aufteilung</string>
+    <string name="export_split_chapters">Eine Datei pro Kapitel</string>
+    <string name="export_split_single">Eine Datei fürs ganze Buch, mit Kapitelmarken</string>
+    <string name="export_whole_book">Ganzes Buch</string>
+    <string name="export_extras">Zusätzlich</string>
+    <string name="export_subtitles_title">Untertitel (SRT und LRC)</string>
+    <string name="export_subtitles_hint">Text mit Zeitmarken neben jeder Audiodatei, für Player, die Liedtexte oder Untertitel zeigen.</string>
+    <string name="export_sync_title">Mitlese-Buch (EPUB 3)</string>
+    <string name="export_sync_hint">Ein EPUB mit Text und Ton. Leseprogramme wie Thorium markieren den Text passend zur Stimme.</string>
+    <string name="export_to_audiobooks">Zu den Hörbüchern hinzufügen</string>
+    <string name="export_to_audiobooks_hint">Öffnet die Ordnerauswahl bei Downloads/Simple Narrator. Dort mit „Diesen Ordner verwenden“ bestätigen; jeder Buchordner darin erscheint dann unter Hörbücher.</string>
+    <string name="export_open_audiobooks">Hörbücher öffnen</string>
+    <string name="export_in_audiobooks">Der Exportordner gehört zur Hörbuch-Bibliothek und wird jetzt neu eingelesen.</string>
+    <string name="export_format_wav">WAV, unkomprimiert und sehr groß</string>
+    <string name="export_start">Export starten</string>
+    <string name="export_running">Läuft …</string>
+    <string name="export_waiting">Wartet …</string>
+    <string name="export_finished">Fertig</string>
+    <string name="export_error">Fehler: %1$s</string>
+    <string name="export_cancelled">Abgebrochen</string>
+    <string name="export_failed">Export fehlgeschlagen</string>
+    <string name="export_hint">Die Erzeugung läuft mit Benachrichtigung im Hintergrund und braucht je nach Gerät etwa so lange wie die halbe Audiolänge. Ergebnis: Downloads/%1$s/&lt;Buchtitel&gt;/. Die Dateien lassen sich direkt in Audiobookshelf oder jeden Player laden.</string>
+    <string name="export_starting">Starte …</string>
+    <string name="export_progress">Kapitel %1$d von %2$d: Satz %3$d/%4$d</string>
+    <string name="export_encoding_chapter">Kodiere Kapitel %1$d …</string>
+    <string name="export_encoding_book">Kodiere Buch …</string>
+    <string name="export_chapter_list_file">Kapitel.txt</string>
+    <plurals name="export_done">
+        <item quantity="one">Fertig: %1$d Datei in Downloads/%2$s</item>
+        <item quantity="other">Fertig: %1$d Dateien in Downloads/%2$s</item>
+    </plurals>
+    <string name="export_notification_title">Hörbuch erzeugen: %1$s</string>
+    <string name="channel_export">Hörbuch-Export</string>
+
+    <!-- Einstellungen -->
+    <string name="app_language">App-Sprache</string>
+    <string name="app_language_hint">Sprache der Menüs und Meldungen. Die Stimmen stellst du weiter unten ein.</string>
+    <string name="language_system">Wie das System</string>
+    <string name="voices">Stimmen</string>
+    <string name="models_location">Modelle liegen unter %1$s und lassen sich auch von Hand dort ablegen.</string>
+    <string name="voices_german">Deutsch</string>
+    <string name="voices_english">Englisch</string>
+    <string name="section_reading">Vorlesen</string>
+    <string name="voice_speed">Sprechtempo der Stimme: %1$s×</string>
+    <string name="voice_speed_hint">Wirkt auf Synthese und Export. Die Wiedergabe-Geschwindigkeit in der Leiste unten ist zusätzlich.</string>
+    <string name="normalize_title">Text für die Sprachausgabe aufbereiten</string>
+    <string name="normalize_hint">Liest Zahlen, Daten, Uhrzeiten, Beträge, Einheiten, römische Ziffern und Abkürzungen ausgeschrieben vor. Der angezeigte Text bleibt unverändert.</string>
+    <string name="auto_lang_title">Sprache automatisch erkennen</string>
+    <string name="auto_lang_hint">Wechselt pro Absatz zwischen deutscher und englischer Stimme.</string>
+    <string name="keep_both_title">Beide Stimmen im Speicher halten</string>
+    <string name="keep_both_hint">Schneller bei gemischten Büchern, braucht etwa 1 GB RAM.</string>
+    <string name="threads">Rechen-Threads: %1$d</string>
+    <string name="export_bitrate">Export-Bitrate (M4A/MP3): %1$d kbit/s</string>
+    <string name="lexicon_title">Aussprache-Wörterbuch</string>
+    <string name="lexicon_save">Wörterbuch speichern</string>
+    <plurals name="pack_summary">
+        <item quantity="one">%1$d MB · %2$d Stimme</item>
+        <item quantity="other">%1$d MB · %2$d Stimmen</item>
+    </plurals>
+    <string name="voice_number">Stimme %1$d</string>
+    <string name="voice_label">Stimme: %1$s</string>
+    <string name="use">Verwenden</string>
+    <string name="delete">Löschen</string>
+    <string name="download">Herunterladen</string>
+    <string name="install_manually">Manuell installieren</string>
+
+    <string name="recommended">Empfohlen</string>
+    <string name="blend_create">Stimmen mischen</string>
+    <string name="blend_hint">Erzeugt aus zwei Kokoro-Stimmen eine neue. Sie liegt im Ordner der Stimme und lässt sich wie die anderen auswählen.</string>
+    <string name="blend_voice_a">Stimme A</string>
+    <string name="blend_voice_b">Stimme B</string>
+    <string name="blend_weight">Anteil: %1$d %% A, %2$d %% B</string>
+    <string name="blend_name">Name</string>
+    <string name="blend_label">Mischung: %1$s</string>
+    <string name="dialogue_title">Wörtliche Rede</string>
+    <string name="dialogue_switch">Zweite Stimme für wörtliche Rede</string>
+    <string name="dialogue_hint">Text in Anführungszeichen („…“, »…«, “…”) liest eine andere Stimme.</string>
+    <string name="dialogue_auto">Automatisch (nächster Sprecher derselben Stimme)</string>
+    <string name="stop_after_title">Nach jedem Satz anhalten</string>
+    <string name="stop_after_hint">Lernmodus: Das Vorlesen hält nach jedem Satz an und geht mit Wiedergabe weiter.</string>
+    <string name="rewind_title">Nach langer Pause zurückspringen</string>
+    <string name="rewind_hint">Nach mehr als 5 Minuten Pause beginnt das Vorlesen einen Satz früher.</string>
+    <string name="sleep_fade_title">Am Ende des Schlaf-Timers ausblenden</string>
+    <string name="sleep_fade_hint">Die Stimme wird in den letzten 30 Sekunden leiser.</string>
+    <string name="shake_title">Schütteln verlängert den Schlaf-Timer</string>
+    <string name="shake_hint">Schütteln startet einen laufenden Timer mit seiner vollen Zeit neu.</string>
+    <string name="pauses_title">Pausen</string>
+    <string name="pauses_hint">Stille nach jedem Satz und Absatz beim Vorlesen und im Export; die Kapitelpause gilt nur im Export.</string>
+    <string name="pause_sentence">Nach einem Satz: %1$d ms</string>
+    <string name="pause_paragraph">Nach einem Absatz: %1$d ms</string>
+    <string name="pause_chapter">Zwischen Kapiteln: %1$d ms</string>
+    <string name="cache_title">Zwischenspeicher</string>
+    <string name="cache_switch">Erzeugte Sprache behalten</string>
+    <string name="cache_hint">Schon erzeugte Sätze laufen ohne neue Berechnung, etwa beim Zurückspringen oder bei einem späteren Export.</string>
+    <string name="cache_limit">Höchstens: %1$d MB</string>
+    <string name="cache_used">Belegt: %1$s</string>
+    <string name="cache_clear">Leeren</string>
+    <string name="lexicon_import">Regeln importieren</string>
+
+    <!-- Stimmpakete -->
+    <string name="pack_note_kokoro_en">Offizielles Kokoro-Paket aus sherpa-onnx. Enthält espeak-ng-data, das auch die deutschen Stimmen nutzen.</string>
+    <string name="pack_note_kokoro_multi">Kokoro 1.0 mit 28 englischen Stimmen (amerikanisch und britisch), auf int8 verkleinert. Klingt sehr natürlich. Die Stimmen lassen sich mischen.</string>
+    <string name="pack_note_supertonic">Ein Modell für Deutsch, Englisch und 29 weitere Sprachen mit je 10 Sprechern, 24 kHz. Klingt natürlich und braucht mehr Rechenzeit als Piper. Lizenz OpenRAIL-M.</string>
+    <string name="pack_note_thorsten_small">Deutsche Stimme von Thorsten Müller (CC0-Daten), auf int8 verkleinert. Klein und schnell, bringt espeak-ng-data mit. Guter Start für Deutsch.</string>
+    <string name="pack_note_thorsten_high">Die Qualitätsstufe „high“ von Thorsten, auf int8 verkleinert. Klingt klarer als „medium“ und braucht etwas mehr Rechenzeit.</string>
+    <string name="pack_note_thorsten_full">Thorsten „high“ unverkleinert. Dieselbe Stimme wie die int8-Fassung, dreimal so groß.</string>
+    <string name="pack_note_thorsten_emotional">Thorsten mit acht Stimmungen (amüsiert, wütend, angewidert, betrunken, neutral, müde, überrascht, flüsternd). Passt für wörtliche Rede.</string>
+    <string name="pack_note_piper_female">Deutsche Frauenstimme aus dem Piper-Projekt, auf int8 verkleinert.</string>
+    <string name="pack_note_piper_female_small">Deutsche Frauenstimme aus dem Piper-Projekt in der kleinsten Qualitätsstufe. Sehr schnell, klingt weniger klar.</string>
+    <string name="pack_note_piper_male">Deutsche Männerstimme aus dem Piper-Projekt, auf int8 verkleinert.</string>
+    <string name="pack_note_piper_en">Amerikanisch-englische Stimme aus dem Piper-Projekt, auf int8 verkleinert. Klein und schnell.</string>
+    <string name="pack_note_piper_en_gb">Britisch-englische Stimme aus dem Piper-Projekt, auf int8 verkleinert.</string>
+    <string name="pack_note_kitten">Sehr kleines englisches Modell mit 8 Stimmen. Schnell auch auf älteren Geräten.</string>
+    <string name="pack_note_kokoro_multi_full">Kokoro 1.0 unverkleinert. Dieselben Stimmen wie die int8-Fassung, mehr als doppelt so groß.</string>
+    <string name="pack_note_martin">Einzelne Männerstimme (Martin Harbecke), Apache 2.0. Wird nach dem Download automatisch für sherpa-onnx aufbereitet. Braucht espeak-ng-data aus einem anderen Paket (Kokoro Englisch oder Thorsten).</string>
+    <string name="pack_note_kokoro_thorsten">Thorsten-Voice/Kokoro liegt nur als PyTorch (.pth) vor. Nach ONNX exportieren (siehe README) und als model.onnx und voices-thorsten.npz in den Ordner legen. Die App bereitet den Rest auf.</string>
+    <string name="download_connecting">Verbinde …</string>
+    <string name="download_running">Lade herunter …</string>
+    <string name="download_extracting">Entpacke …</string>
+    <string name="download_file">Lade %1$s …</string>
+    <string name="download_preparing">Bereite Modell für sherpa-onnx auf …</string>
+    <string name="pack_manual_only">Dieses Paket muss manuell installiert werden: %1$s</string>
+    <string name="pack_incomplete">Paket unvollständig, es fehlt: %1$s</string>
+    <string name="espeak_missing">espeak-ng-data fehlt. Zuerst ein Paket installieren, das sie mitbringt (Kokoro Englisch oder Thorsten/Piper).</string>
+</resources>

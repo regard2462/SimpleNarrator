@@ -1,0 +1,62 @@
+{
+  "count": 4,
+  "next": "{{BASE}}/books/?languages=de%2Cen&mime_type=application%2Fepub&page=2&search=goethe",
+  "previous": null,
+  "results": [
+    {
+      "id": 2229,
+      "title": "Faust: Der Tragödie erster Teil",
+      "subjects": ["Faust, -approximately 1540 -- Drama", "German drama"],
+      "authors": [{"name": "Goethe, Johann Wolfgang von", "birth_year": 1749, "death_year": 1832}],
+      "summaries": ["\"Faust: Der Tragödie erster Teil\" by Johann Wolfgang von Goethe is a tragic play."],
+      "translators": [],
+      "bookshelves": ["Browsing: Literature", "DE Drama"],
+      "languages": ["de"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html": "{{BASE}}/ebooks/2229.html.images",
+        "application/epub+zip": "{{BASE}}/ebooks/2229.epub3.images",
+        "application/x-mobipocket-ebook": "{{BASE}}/ebooks/2229.kf8.images",
+        "application/rdf+xml": "{{BASE}}/ebooks/2229.rdf",
+        "image/jpeg": "{{BASE}}/cache/epub/2229/pg2229.cover.medium.jpg",
+        "application/octet-stream": "{{BASE}}/cache/epub/2229/pg2229-h.zip",
+        "text/plain; charset=utf-8": "{{BASE}}/ebooks/2229.txt.utf-8"
+      },
+      "download_count": 4821
+    },
+    {
+      "id": 2407,
+      "title": "Die Leiden des jungen Werther —\r\nBand 1",
+      "subjects": ["Epistolary fiction"],
+      "authors": [{"name": "Goethe, Johann Wolfgang von", "birth_year": 1749, "death_year": 1832}],
+      "summaries": [],
+      "translators": [],
+      "bookshelves": [],
+      "languages": ["de"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/epub+zip": "{{BASE}}/ebooks/2407.epub.noimages",
+        "text/plain; charset=us-ascii": "{{BASE}}/ebooks/2407.txt"
+      },
+      "download_count": 1310
+    },
+    {
+      "id": 5000,
+      "title": "The Notebooks of Leonardo Da Vinci — Complete",
+      "subjects": [],
+      "authors": [{"name": "Anonymous", "birth_year": null, "death_year": null}],
+      "summaries": [],
+      "translators": [{"name": "Richter, Jean Paul", "birth_year": 1847, "death_year": 1937}],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": null,
+      "media_type": "Text",
+      "formats": {
+        "text/html": "{{BASE}}/ebooks/5000.html.images"
+      },
+      "download_count": null
+    }
+  ]
+}

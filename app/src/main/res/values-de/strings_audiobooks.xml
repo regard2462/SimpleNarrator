@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Allgemein -->
+    <string name="ab_back">Zurück</string>
+    <string name="ab_close">Schließen</string>
+    <string name="ab_cancel">Abbrechen</string>
+    <string name="ab_save">Speichern</string>
+    <string name="ab_delete">Löschen</string>
+    <string name="ab_remove">Entfernen</string>
+    <string name="ab_more">Mehr</string>
+    <string name="ab_clear">Leeren</string>
+    <string name="ab_off">Aus</string>
+    <string name="ab_details">Buchdetails</string>
+    <string name="ab_percent">%1$d %%</string>
+    <string name="ab_seconds_n">%1$d s</string>
+    <string name="ab_minutes_short">%1$d min</string>
+    <string name="ab_dur_h_min">%1$d h %2$d min</string>
+    <string name="ab_dur_h">%1$d h</string>
+    <string name="ab_dur_min">%1$d min</string>
+    <string name="ab_dur_less_than_min">unter 1 min</string>
+
+    <!-- Bibliothek -->
+    <string name="ab_library">Bibliothek</string>
+    <string name="ab_search">Suchen</string>
+    <string name="ab_search_hint">Titel, Autor oder Sprecher</string>
+    <string name="ab_sort">Sortieren</string>
+    <string name="ab_sort_by">Sortieren nach</string>
+    <string name="ab_sort_recent">Zuletzt gehört</string>
+    <string name="ab_sort_title">Titel</string>
+    <string name="ab_sort_author">Autor</string>
+    <string name="ab_sort_added">Neu hinzugefügt</string>
+    <string name="ab_sort_length">Länge</string>
+    <string name="ab_sort_progress">Fortschritt</string>
+    <string name="ab_hide_finished">Gehörte unter „Alle“ ausblenden</string>
+    <string name="ab_settings">Einstellungen</string>
+    <string name="ab_filter_all">Alle</string>
+    <string name="ab_filter_started">Begonnen</string>
+    <string name="ab_filter_new">Neu</string>
+    <string name="ab_filter_finished">Gehört</string>
+    <string name="ab_view">Ansicht</string>
+    <string name="ab_view_list">Liste</string>
+    <string name="ab_view_grid">Raster</string>
+    <string name="ab_continue_listening">Weiterhören</string>
+    <string name="ab_status_new_len">Neu · %1$s</string>
+    <string name="ab_status_finished">Gehört</string>
+    <string name="ab_remaining">noch %1$s</string>
+    <string name="ab_scanning">Bibliothek wird eingelesen</string>
+    <string name="ab_scanning_first">Die Bibliothek wird zum ersten Mal eingelesen. Bei vielen Dateien dauert das einen Moment.</string>
+    <string name="ab_scan_listing">Ordner werden durchsucht</string>
+    <string name="ab_scan_folder">Ordner %1$d von %2$d</string>
+    <string name="ab_no_books_found">In den gewählten Ordnern wurden keine Hörbücher gefunden. Unterstützt werden MP3, M4B, M4A, AAC, OGG, Opus, FLAC und WAV.</string>
+    <string name="ab_no_search_results">Keine Treffer.</string>
+    <string name="ab_no_books_filter">Hier ist gerade nichts.</string>
+    <string name="ab_manage_folders">Ordner verwalten</string>
+    <string name="ab_unreachable">Nicht erreichbar: %1$s. Die Bücher bleiben sichtbar, bis der Ordner wieder verfügbar ist.</string>
+    <string name="ab_welcome_title">Deine Hörbücher</string>
+    <string name="ab_welcome_text">Wähle den Ordner, in dem deine Hörbücher liegen. Jeder Unterordner wird zu einem Hörbuch, M4B-Dateien und ihre Kapitel werden erkannt.</string>
+    <string name="ab_welcome_privacy">Die App liest deine Dateien und sammelt keine Daten. Für Hörbücher ohne Titelbild fragt sie Titel und Autor in öffentlichen Katalogen ab; das lässt sich in den Einstellungen abschalten.</string>
+    <string name="ab_choose_folder">Ordner auswählen</string>
+    <string name="ab_folder_type_title">Wie ist der Ordner aufgebaut?</string>
+    <string name="ab_folder_type_collection">Sammlung von Hörbüchern</string>
+    <string name="ab_folder_type_collection_desc">Jeder Unterordner und jede lose Datei ist ein eigenes Hörbuch. Autoren- und Reihenordner werden erkannt.</string>
+    <string name="ab_folder_type_single">Ein einzelnes Hörbuch</string>
+    <string name="ab_folder_type_single_desc">Alle Dateien im Ordner gehören zu einem Buch.</string>
+
+    <!-- Buch -->
+    <string name="ab_play">Abspielen</string>
+    <string name="ab_pause">Pause</string>
+    <string name="ab_resume">Weiterhören</string>
+    <string name="ab_listen_again">Erneut hören</string>
+    <string name="ab_read_by">Gelesen von %1$s</string>
+    <string name="ab_finished_on">Gehört am %1$s</string>
+    <string name="ab_mark_finished">Als gehört markieren</string>
+    <string name="ab_mark_unfinished">Als nicht gehört markieren</string>
+    <string name="ab_reset">Fortschritt zurücksetzen</string>
+    <string name="ab_reset_title">Fortschritt zurücksetzen</string>
+    <string name="ab_reset_text">„%1$s“ beginnt danach wieder am Anfang. Lesezeichen bleiben erhalten.</string>
+    <string name="ab_edit_book">Bearbeiten</string>
+    <string name="ab_field_title">Titel</string>
+    <string name="ab_field_author">Autor</string>
+    <string name="ab_field_narrator">Sprecher</string>
+    <string name="ab_change_cover">Titelbild ändern</string>
+    <string name="ab_reset_cover">Ursprüngliches Titelbild</string>
+    <string name="ab_files">Dateien</string>
+    <string name="ab_chapter_n">Kapitel %1$d</string>
+    <string name="ab_chapters">Kapitel</string>
+    <string name="ab_bookmark">Lesezeichen</string>
+    <string name="ab_bookmarks_none">Lesezeichen</string>
+    <string name="ab_bookmark_here">Lesezeichen bei %1$s setzen</string>
+    <string name="ab_no_bookmarks">Noch keine Lesezeichen. Im Player setzt ein Tippen auf „Lesezeichen“ eines an der aktuellen Stelle.</string>
+    <string name="ab_edit_note">Notiz bearbeiten</string>
+    <string name="ab_bookmark_note">Notiz zum Lesezeichen</string>
+    <string name="ab_bookmark_note_hint">Was passiert an dieser Stelle</string>
+    <string name="ab_bookmark_added">Lesezeichen bei %1$s gesetzt</string>
+    <string name="ab_add_note">Notiz</string>
+
+    <!-- Player -->
+    <string name="ab_now_playing">Wiedergabe</string>
+    <string name="ab_playback_error">Die Datei lässt sich gerade nicht abspielen.</string>
+    <string name="ab_retry">Erneut versuchen</string>
+    <string name="ab_chapter_of">Kapitel %1$d von %2$d</string>
+    <string name="ab_position_in_chapter">Position im Kapitel</string>
+    <string name="ab_book_progress">Buch %1$s · noch %2$s</string>
+    <string name="ab_at_speed">bei %1$s</string>
+    <string name="ab_previous_chapter">Vorheriges Kapitel</string>
+    <string name="ab_next_chapter">Nächstes Kapitel</string>
+    <string name="ab_speed">Geschwindigkeit</string>
+    <string name="ab_slower">Langsamer</string>
+    <string name="ab_faster">Schneller</string>
+    <string name="ab_speed_as_default">Als Standard für alle Bücher verwenden</string>
+    <string name="ab_skip_silence">Stille überspringen</string>
+    <string name="ab_skip_silence_desc">Längere Pausen im Vortrag werden verkürzt.</string>
+    <string name="ab_volume_boost">Lautstärke anheben</string>
+    <string name="ab_sleep_timer">Schlaftimer</string>
+    <string name="ab_sleep_pause_after">Wiedergabe anhalten nach</string>
+    <string name="ab_sleep_chapter_end">Ende des Kapitels</string>
+    <string name="ab_sleep_chapter_end_short">Kapitelende</string>
+    <string name="ab_sleep_running">Der Schlaftimer läuft.</string>
+    <string name="ab_plus_5_min">+5 min</string>
+    <string name="ab_sleep_stop">Timer beenden</string>
+    <string name="ab_sleep_fade">Zum Ende leiser werden</string>
+    <string name="ab_sleep_fade_desc">In den letzten 15 Sekunden wird die Wiedergabe langsam leiser.</string>
+    <string name="ab_sleep_shake">Schütteln setzt zurück</string>
+    <string name="ab_sleep_shake_desc">Kräftiges Schütteln startet den laufenden Timer von vorn.</string>
+
+    <!-- Einstellungen -->
+    <string name="ab_section_library">Bibliothek</string>
+    <string name="ab_section_playback">Wiedergabe</string>
+    <string name="ab_section_appearance">Darstellung</string>
+    <string name="ab_section_data">Daten</string>
+    <string name="ab_section_about">Über die App</string>
+    <string name="ab_add_folder">Ordner hinzufügen</string>
+    <string name="ab_remove_folder">Ordner entfernen</string>
+    <string name="ab_remove_folder_text">„%1$s“ wird aus der Bibliothek entfernt. Die Dateien bleiben unverändert, Hörstände bleiben gespeichert.</string>
+    <string name="ab_folder_unreachable">nicht erreichbar</string>
+    <string name="ab_rescan">Bibliothek neu einlesen</string>
+    <string name="ab_rescan_desc">Sucht nach neuen, geänderten und entfernten Dateien.</string>
+    <string name="ab_skip_back">Zurückspulen</string>
+    <string name="ab_skip_forward">Vorspulen</string>
+    <string name="ab_resume_rewind">Beim Fortsetzen zurückspringen</string>
+    <string name="ab_resume_rewind_desc">Nach einer Pause ein Stück zurück, damit der Faden nicht reißt.</string>
+    <string name="ab_smart_rewind">An die Pausenlänge anpassen</string>
+    <string name="ab_smart_rewind_desc">Kurze Pause: halber Wert. Ab 10 Minuten doppelt, ab einer Stunde dreifach.</string>
+    <string name="ab_default_speed">Standardgeschwindigkeit</string>
+    <string name="ab_default_speed_desc">Gilt für Bücher ohne eigene Einstellung.</string>
+    <string name="ab_headset_chapters">Kopfhörertasten springen zu Kapiteln</string>
+    <string name="ab_headset_chapters_desc">Sonst spulen „Weiter“ und „Zurück“ um die eingestellten Sekunden.</string>
+    <string name="ab_theme">Design</string>
+    <string name="ab_theme_system">Wie das System</string>
+    <string name="ab_theme_light">Hell</string>
+    <string name="ab_theme_dark">Dunkel</string>
+    <string name="ab_color_scheme">Farbschema</string>
+    <string name="ab_palette_night">Nachtblau und Gold</string>
+    <string name="ab_palette_petrol">Petrol</string>
+    <string name="ab_palette_violet">Violett</string>
+    <string name="ab_palette_forest">Waldgrün</string>
+    <string name="ab_palette_raspberry">Himbeere</string>
+    <string name="ab_palette_graphite">Graphit und Eisblau</string>
+    <string name="ab_palette_sky">Himmelblau</string>
+    <string name="ab_palette_sage">Salbei und Creme</string>
+    <string name="ab_palette_amber">Bernstein</string>
+    <string name="ab_palette_wallpaper">Aus dem Hintergrundbild</string>
+    <string name="ab_pure_black">Reines Schwarz</string>
+    <string name="ab_pure_black_desc">Dunkles Design mit schwarzem Hintergrund, spart auf OLED-Bildschirmen Strom.</string>
+    <string name="ab_statistics">Hörstatistik</string>
+    <string name="ab_statistics_desc">Hörzeit je Tag und meistgehörte Bücher</string>
+    <string name="ab_backup_export">Exportieren</string>
+    <string name="ab_backup_export_desc">Hörstände, Lesezeichen, Statistik und Einstellungen als Datei</string>
+    <string name="ab_backup_import">Importieren</string>
+    <string name="ab_backup_import_desc">Aus einer Exportdatei, auch von Simple Audiobooks</string>
+    <string name="ab_backup_saved">Export gespeichert</string>
+    <string name="ab_backup_failed">Export fehlgeschlagen</string>
+    <string name="ab_backup_invalid">Die Datei ist kein Hörbuch-Export (Simple Narrator oder Simple Audiobooks).</string>
+    <string name="ab_about_text">Freie Software unter der GNU General Public License, Version 3 oder später. Ohne Werbung, ohne Tracking. Ins Internet geht die App nur für Titelbilder.</string>
+    <string name="ab_about_licenses">Verwendet AndroidX, Jetpack Compose und Media3 (Apache 2.0), Kotlin und kotlinx (Apache 2.0) sowie Coil (Apache 2.0).</string>
+
+    <!-- Statistik -->
+    <string name="ab_stats_today">Heute</string>
+    <string name="ab_stats_week">7 Tage</string>
+    <string name="ab_stats_total">Gesamt</string>
+    <string name="ab_stats_most_listened">Am meisten gehört</string>
+    <string name="ab_stats_empty">Sobald du hörst, erscheinen hier deine Bücher.</string>
+
+    <!-- Android Auto -->
+    <string name="ab_auto_recent">Zuletzt gehört</string>
+    <string name="ab_auto_all">Alle Hörbücher</string>
+
+    <string name="ab_remove_book">Aus der Bibliothek entfernen</string>
+    <string name="ab_remove_book_title">Hörbuch entfernen</string>
+    <string name="ab_remove_book_text">„%1$s“ verschwindet aus der Bibliothek. Die Dateien bleiben auf dem Gerät, in den Einstellungen lässt sich das Buch wiederherstellen.</string>
+    <string name="ab_remove_book_text_delete">„%1$s“ wird mitsamt seinen Dateien vom Gerät gelöscht. Das lässt sich nicht rückgängig machen.</string>
+    <string name="ab_remove_book_delete_files">Dateien auch vom Gerät löschen</string>
+    <string name="ab_remove_book_done">„%1$s“ aus der Bibliothek entfernt</string>
+    <string name="ab_remove_book_deleted">„%1$s“ gelöscht</string>
+    <string name="ab_remove_book_delete_failed">Die Dateien ließen sich nicht löschen.</string>
+    <string name="ab_remove_book_needs_grant">Simple Narrator braucht dafür einmal Schreibzugriff auf den Ordner „%1$s“. Im nächsten Schritt diesen Ordner mit „Diesen Ordner verwenden“ bestätigen.</string>
+    <string name="ab_remove_book_grant">Zugriff erteilen</string>
+    <string name="ab_remove_book_wrong_folder">Bitte den Ordner „%1$s“ wählen.</string>
+    <string name="ab_section_removed">Entfernte Hörbücher</string>
+    <string name="ab_restore">Wiederherstellen</string>
+
+    <plurals name="ab_chapters">
+        <item quantity="one">%1$d Kapitel</item>
+        <item quantity="other">%1$d Kapitel</item>
+    </plurals>
+    <plurals name="ab_bookmarks">
+        <item quantity="one">%1$d Lesezeichen</item>
+        <item quantity="other">%1$d Lesezeichen</item>
+    </plurals>
+    <plurals name="ab_books">
+        <item quantity="one">%1$d Hörbuch</item>
+        <item quantity="other">%1$d Hörbücher</item>
+    </plurals>
+    <plurals name="ab_scan_progress">
+        <item quantity="one">%1$d von %2$d Hörbuch</item>
+        <item quantity="other">%1$d von %2$d Hörbüchern</item>
+    </plurals>
+    <plurals name="ab_skip_back_n">
+        <item quantity="one">%1$d Sekunde zurück</item>
+        <item quantity="other">%1$d Sekunden zurück</item>
+    </plurals>
+    <plurals name="ab_skip_forward_n">
+        <item quantity="one">%1$d Sekunde vor</item>
+        <item quantity="other">%1$d Sekunden vor</item>
+    </plurals>
+    <plurals name="ab_stats_last_days">
+        <item quantity="one">Hörzeit des letzten Tages</item>
+        <item quantity="other">Hörzeit der letzten %1$d Tage</item>
+    </plurals>
+    <plurals name="ab_backup_restored">
+        <item quantity="one">Stand für %1$d Buch übernommen</item>
+        <item quantity="other">Stände für %1$d Bücher übernommen</item>
+    </plurals>
+    <string name="ab_language">Sprache</string>
+    <string name="ab_language_system">Systemsprache</string>
+    <string name="ab_section_covers">Titelbilder</string>
+    <string name="ab_web_covers">Cover aus dem Internet laden</string>
+    <string name="ab_web_covers_desc">Für Hörbücher ohne eigenes Titelbild. Dafür gehen nur Titel und Autor an Audible, Apple Books und Open Library.</string>
+    <string name="ab_web_covers_progress">Suche Titelbilder: %1$d von %2$d</string>
+    <string name="ab_web_covers_clear">Geladene Cover löschen</string>
+    <string name="ab_web_covers_cleared">Geladene Cover gelöscht.</string>
+    <string name="ab_search_cover">Cover online suchen</string>
+    <string name="ab_remove_web_cover">Online-Cover entfernen</string>
+    <string name="ab_cover_search_title">Cover aus dem Internet</string>
+    <string name="ab_cover_search_none">Nichts gefunden. Weniger oder andere Wörter versuchen.</string>
+    <string name="ab_cover_search_offline">Die Kataloge sind nicht erreichbar. Bitte die Internetverbindung prüfen.</string>
+    <string name="ab_cover_search_note">Quellen: Audible, Apple Books, Open Library. Gesendet wird nur der Suchtext.</string>
+    <string name="ab_cover_saved">Titelbild übernommen.</string>
+    <string name="ab_cover_save_failed">Das Bild ließ sich nicht laden.</string>
+    <plurals name="ab_web_covers_count">
+        <item quantity="one">%1$d Titelbild gespeichert</item>
+        <item quantity="other">%1$d Titelbilder gespeichert</item>
+    </plurals>
+    <string name="ab_import_title">Importieren</string>
+    <string name="ab_import_from">Exportiert am %1$s. Was soll übernommen werden:</string>
+    <string name="ab_import_books">Hörstände und Lesezeichen</string>
+    <string name="ab_import_settings_desc">Ohne Bibliotheksordner, die wählst du auf diesem Gerät selbst.</string>
+    <string name="ab_import_do">Importieren</string>
+    <string name="ab_import_settings_done">Einstellungen übernommen.</string>
+    <string name="ab_welcome_import">Hörstände und Einstellungen importieren</string>
+    <plurals name="ab_import_waiting">
+        <item quantity="one">%1$d Buch wird zugeordnet, sobald sein Ordner eingelesen ist.</item>
+        <item quantity="other">%1$d Bücher werden zugeordnet, sobald ihre Ordner eingelesen sind.</item>
+    </plurals>
+</resources>

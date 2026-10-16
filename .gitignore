@@ -1,0 +1,27 @@
+# Build-Ausgaben
+build/
+app/build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+
+# Lokale Android-Studio-Dateien mit Rechnerpfaden (sdk.dir) und Einstellungen
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signaturschluessel niemals einchecken
+*.jks
+*.keystore
+keystore.properties
+keystore/
+
+# Heruntergeladene Sprachmodelle (mehrere hundert MB)
+*.onnx
+*.npz
+models/

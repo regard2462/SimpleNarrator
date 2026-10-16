@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hinzufügen-Menü der Bibliothek -->
+    <string name="in_add_file">File (EPUB, PDF, TXT)</string>
+    <string name="in_add_paste">Paste text</string>
+    <string name="in_add_web">Web article</string>
+    <string name="in_add_gutenberg">Project Gutenberg</string>
+
+    <!-- Text einfügen -->
+    <string name="in_paste_title">Paste text</string>
+    <string name="in_title_optional">Title (optional)</string>
+    <string name="in_title_auto">Empty: the first line is used</string>
+    <string name="in_text_label">Text</string>
+    <string name="in_paste_from_clipboard">Paste from clipboard</string>
+    <string name="in_clear">Clear</string>
+    <plurals name="in_char_count">
+        <item quantity="one">%1$s character</item>
+        <item quantity="other">%1$s characters</item>
+    </plurals>
+    <string name="in_text_preview_only">Long text. The preview shows the beginning only.</string>
+    <string name="in_add">Add</string>
+
+    <!-- Webartikel -->
+    <string name="in_web_title">Web article</string>
+    <string name="in_url_label">Web address</string>
+    <string name="in_url_hint">The app loads the page once and keeps only the article text. Navigation, ads and comments are removed.</string>
+    <string name="in_url_invalid">Not a valid web address.</string>
+    <string name="in_load">Load</string>
+    <string name="in_loading_article">Loading article …</string>
+
+    <!-- Project Gutenberg -->
+    <string name="in_gb_title">Project Gutenberg</string>
+    <string name="in_gb_search_hint">Title or author</string>
+    <string name="in_gb_search">Search</string>
+    <string name="in_gb_clear_search">Clear search</string>
+    <string name="in_gb_lang_de">German</string>
+    <string name="in_gb_lang_en">English</string>
+    <string name="in_gb_lang_all">All</string>
+    <string name="in_gb_popular">Most downloaded</string>
+    <plurals name="in_gb_results">
+        <item quantity="one">%1$s result</item>
+        <item quantity="other">%1$s results</item>
+    </plurals>
+    <plurals name="in_gb_downloads">
+        <item quantity="one">%1$s download</item>
+        <item quantity="other">%1$s downloads</item>
+    </plurals>
+    <string name="in_gb_download">Download and add</string>
+    <string name="in_gb_added">Added to the library</string>
+    <string name="in_gb_no_epub">No EPUB available</string>
+    <string name="in_gb_load_more">Load more</string>
+    <string name="in_gb_empty">No books found.</string>
+    <string name="in_gb_empty_hint">Try a different spelling or another language filter.</string>
+    <string name="in_gb_results_catalog">Results from the gutenberg.org catalogue</string>
+    <string name="in_gb_source">Public domain books from gutenberg.org. The search uses gutendex.com. If it does not answer, the app searches the catalogue of gutenberg.org.</string>
+    <string name="in_retry">Try again</string>
+
+    <!-- Audiobookshelf -->
+    <string name="in_abs_title">Audiobookshelf</string>
+    <string name="in_abs_hint">Upload exported audiobooks to your own Audiobookshelf server. Create the API token in the web interface under Settings > API Keys (older versions: Settings > Users).</string>
+    <string name="in_abs_url">Server address</string>
+    <string name="in_abs_url_placeholder">https://abs.example.com</string>
+    <string name="in_abs_token">API token</string>
+    <string name="in_abs_show_token">Show token</string>
+    <string name="in_abs_hide_token">Hide token</string>
+    <string name="in_abs_test">Test connection</string>
+    <string name="in_abs_testing">Connecting …</string>
+    <string name="in_abs_connected">Connected. Server version %1$s</string>
+    <string name="in_abs_library">Library</string>
+    <string name="in_abs_folder">Folder</string>
+    <string name="in_abs_choose">Choose</string>
+    <string name="in_abs_no_libraries">The server has no audiobook library.</string>
+    <string name="in_abs_upload_title">Upload to Audiobookshelf</string>
+    <string name="in_abs_not_configured">Set the server, library and folder in the settings first.</string>
+    <plurals name="in_abs_files">
+        <item quantity="one">%1$d file, %2$s</item>
+        <item quantity="other">%1$d files, %2$s</item>
+    </plurals>
+    <string name="in_abs_target">Target: %1$s, folder %2$s</string>
+    <string name="in_abs_book_title">Title</string>
+    <string name="in_abs_author">Author</string>
+    <string name="in_abs_upload">Upload</string>
+    <string name="in_abs_uploading">Uploading … %1$d %%</string>
+    <string name="in_abs_done">Upload finished. The book appears in Audiobookshelf after the next library scan.</string>
+    <string name="in_abs_no_files">No files to upload.</string>
+    <string name="in_close">Close</string>
+
+    <!-- Fehler -->
+    <string name="in_err_network">No connection to the server (%1$s).</string>
+    <string name="in_err_http">The server reported error %1$d.</string>
+    <string name="in_err_not_html">The address does not lead to a web page (%1$s).</string>
+    <string name="in_err_too_large">The page is too large.</string>
+    <string name="in_err_no_text">No article text was found on this page.</string>
+    <string name="in_err_bad_response">The server sent an unexpected response.</string>
+    <string name="in_err_not_epub">The downloaded file is not an EPUB.</string>
+    <string name="in_err_unauthorized">The server rejected the API token (401).</string>
+    <string name="in_err_forbidden">Access denied (403). The user needs permission to upload.</string>
+    <string name="in_err_not_found">Not found (404). Check the server address, library and folder.</string>
+    <string name="in_err_cleartext">Android blocks unencrypted http connections for this app. Use an https address.</string>
+    <string name="in_err_other">Error: %1$s</string>
+</resources>
