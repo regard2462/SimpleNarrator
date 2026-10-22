@@ -8,6 +8,8 @@ der App abspielen. Die App gibt es auf Deutsch und Englisch.
 
 [English version](README.md)
 
+<p><a href="https://buymeacoffee.com/regard2462"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" alt="Buy me a coffee"></a></p>
+
 <p>
 <img src="docs/screenshots/library-de.jpg" width="200" alt="Bibliothek">
 <img src="docs/screenshots/reader-de.jpg" width="200" alt="Leseansicht">

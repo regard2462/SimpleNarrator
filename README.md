@@ -8,6 +8,8 @@ area. The app is available in English and German.
 
 [Deutsche Fassung](README.de.md)
 
+<p><a href="https://buymeacoffee.com/regard2462"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" alt="Buy me a coffee"></a></p>
+
 <p>
 <img src="docs/screenshots/library.jpg" width="200" alt="Library">
 <img src="docs/screenshots/reader.jpg" width="200" alt="Reading view">
