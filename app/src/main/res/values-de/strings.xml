@@ -225,6 +225,7 @@
     <string name="cache_used">Belegt: %1$s</string>
     <string name="cache_clear">Leeren</string>
     <string name="lexicon_import">Regeln importieren</string>
+    <string name="support_hint">Die App unterstützen, wenn sie dir gefällt</string>
 
     <!-- Stimmpakete -->
     <string name="pack_note_kokoro_en">Offizielles Kokoro-Paket aus sherpa-onnx. Enthält espeak-ng-data, das auch die deutschen Stimmen nutzen.</string>

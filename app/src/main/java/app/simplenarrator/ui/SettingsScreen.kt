@@ -8,6 +8,8 @@ import android.os.Build
 import android.text.format.Formatter
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -16,6 +18,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.selection.toggleable
@@ -53,7 +56,14 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
@@ -271,6 +281,7 @@ fun SettingsScreen(c: AppContainer, onBack: () -> Unit) {
 
             HorizontalDivider(Modifier.padding(vertical = 16.dp))
             Text(stringResource(R.string.app_name) + " " + BuildConfig.VERSION_NAME, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            SupportRow()
             Spacer(Modifier.height(32.dp))
         }
     }
@@ -286,6 +297,38 @@ private fun Section(title: String) {
 @Composable
 private fun Hint(text: String) {
     Text(text, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+}
+
+/** Seite zum Unterstützen der App bei Buy Me a Coffee. */
+private const val SUPPORT_URL = "https://buymeacoffee.com/regard2462"
+
+/** Zeile mit einer gezeichneten Kaffeetasse auf gelbem Grund; öffnet die Seite im Browser. */
+@Composable
+private fun SupportRow() {
+    val uri = LocalUriHandler.current
+    Row(
+        Modifier.fillMaxWidth().clickable { runCatching { uri.openUri(SUPPORT_URL) } }.padding(vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Canvas(Modifier.size(36.dp)) {
+            val dark = Color(0xFF1A1A1A)
+            drawCircle(Color(0xFFFFDD00))
+            val w = size.width
+            // Tasse
+            drawRoundRect(dark, topLeft = Offset(w * 0.26f, w * 0.42f), size = Size(w * 0.38f, w * 0.32f), cornerRadius = CornerRadius(w * 0.08f))
+            // Henkel
+            drawArc(dark, startAngle = -90f, sweepAngle = 180f, useCenter = false, topLeft = Offset(w * 0.56f, w * 0.47f),
+                size = Size(w * 0.18f, w * 0.18f), style = Stroke(width = w * 0.07f, cap = StrokeCap.Round))
+            // Dampf
+            drawLine(dark, Offset(w * 0.38f, w * 0.24f), Offset(w * 0.38f, w * 0.34f), strokeWidth = w * 0.06f, cap = StrokeCap.Round)
+            drawLine(dark, Offset(w * 0.50f, w * 0.22f), Offset(w * 0.50f, w * 0.34f), strokeWidth = w * 0.06f, cap = StrokeCap.Round)
+        }
+        Spacer(Modifier.width(14.dp))
+        Column(Modifier.weight(1f)) {
+            Text(stringResource(R.string.support_title), style = MaterialTheme.typography.titleSmall)
+            Hint(stringResource(R.string.support_hint))
+        }
+    }
 }
 
 /** Sprache der Oberfläche: wie das System, Deutsch oder Englisch. */
