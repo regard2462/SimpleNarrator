@@ -23,8 +23,8 @@ android {
         applicationId = "app.simplenarrator"
         minSdk = 26
         targetSdk = 35
-        versionCode = 6
-        versionName = "0.6.0"
+        versionCode = 7
+        versionName = "0.6.1"
         // sherpa-onnx liefert native Libs; 64-bit reicht für aktuelle Geräte und hält die APK klein.
         ndk { abiFilters += listOf(onlyAbi ?: "arm64-v8a") }
     }
