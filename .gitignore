@@ -25,3 +25,8 @@ keystore/
 *.onnx
 *.npz
 models/
+
+# Lokale Einstellungen von Entwicklungswerkzeugen
+.claude/settings.local.json
+.mcp.json
+.env
